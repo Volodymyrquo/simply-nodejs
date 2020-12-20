@@ -1,1 +1,5 @@
-console.log('Hello NodeJS');
+const chalk = require('chalk');
+const text = require('./data');
+
+console.log(chalk.blue('Hello NodeJS'));
+console.log(__filename);
